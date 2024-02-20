@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #f1f1f1;
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 330px;
+  background: white;
+  gap: 10px;
+  padding: 20px;
+}
+
+.progress-bar{
+  width: 100%;
+  height: 10px;
+  border: 1px solid black;
+}
+
+.progress-of-bar{
+  height: 100%;
+  background: rgb(65, 163, 255);
+}
+
+input[type=text], input[type=email], select{
+  height: 30px;
+}
+
+.radio-btn{
+  display: flex;
+  gap: 10px;
+}
+
+button{
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover{
+  background: #e2e2e2;
+}
+button:active{
+  background: #d2d2d2;
+}
